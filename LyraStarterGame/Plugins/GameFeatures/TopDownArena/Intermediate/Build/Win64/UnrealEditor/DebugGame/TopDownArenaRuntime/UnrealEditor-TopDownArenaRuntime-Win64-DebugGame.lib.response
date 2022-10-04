@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TopDownArenaRuntime-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UE Projects\LyraStarterGame\LyraTestJob\LyraStarterGame\Intermediate\Build\Win64\LyraEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"C:\UE Projects\LyraStarterGame\LyraTestJob\LyraStarterGame\Plugins\GameFeatures\TopDownArena\Intermediate\Build\Win64\UnrealEditor\DebugGame\TopDownArenaRuntime\Module.TopDownArenaRuntime.cpp.obj"
+"C:\UE Projects\LyraStarterGame\LyraTestJob\LyraStarterGame\Plugins\GameFeatures\TopDownArena\Intermediate\Build\Win64\UnrealEditor\DebugGame\TopDownArenaRuntime\Module.TopDownArenaRuntime.gen.cpp.obj"
+"C:\UE Projects\LyraStarterGame\LyraTestJob\LyraStarterGame\Plugins\GameFeatures\TopDownArena\Intermediate\Build\Win64\UnrealEditor\DebugGame\TopDownArenaRuntime\Default.rc2.res"
+/OUT:"C:\UE Projects\LyraStarterGame\LyraTestJob\LyraStarterGame\Plugins\GameFeatures\TopDownArena\Intermediate\Build\Win64\UnrealEditor\DebugGame\TopDownArenaRuntime\UnrealEditor-TopDownArenaRuntime-Win64-DebugGame.lib"
