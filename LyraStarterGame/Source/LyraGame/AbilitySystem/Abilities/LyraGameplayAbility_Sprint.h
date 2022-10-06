@@ -25,6 +25,13 @@ public:
 
 protected:
 
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category="Sprint parameters")
+	float SprintSpeed = 2000.0f;
+
+	void SetDefaultWalkSpeed(const FGameplayAbilityActorInfo* ActorInfo);
+
+	void WaitInputPress();
+
 	UFUNCTION()
 	void EndSprint(float TimeHeld);
 
