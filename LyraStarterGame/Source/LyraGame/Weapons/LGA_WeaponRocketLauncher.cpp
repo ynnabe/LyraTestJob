@@ -72,6 +72,7 @@ void ULGA_WeaponRocketLauncher::GetDirectionAndLocation(const FGameplayAbilityAc
 	if(bool bHasHit = GetWorld()->LineTraceSingleByChannel(HitResult, StartLocation, EndLocation, ECC_Visibility))
 	{
 		Direction = UKismetMathLibrary::FindLookAtRotation(StartLocation, HitResult.Location);
+		return;
 	}
 	Direction = UKismetMathLibrary::FindLookAtRotation(StartLocation, HitResult.TraceEnd);
 }
